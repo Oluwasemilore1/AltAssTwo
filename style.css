@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: rebeccapurple; */
+    display: flex;
+}
+
+.LogoHold{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+
+.LogoHolder{
+    width: 80%;
+    height: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rcap;
+}
+
+.LogoHolder p{
+    margin-top: 20px;
+    line-height: 20px;
+    color: #737373;
+}
+
+.LogoHolder h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+img{
+    width: 130px;
+}
+
+.InputSec{
+    /* background-color: black; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecHold{
+    width: 90%;
+    height: 100%;
+    padding: 1rcap;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NameInput{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 2rem;
+}
+
+input, select{
+    width: 248px;
+    height: 40px;
+    padding: 5px;
+    text-align: start;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 2px;
+    border: 1px solid gray;
+
+}
+
+.NameInput h6{
+    font-size: 15px;
+    color: black;
+}
+
+
+.DownPart input{
+    width: 500px;
+}
+.DownPart select{
+    width: 500px;
+}
+
+.Pass{
+    margin-top: 1rem;
+}
+
+.ActIn{
+    margin-top: 1rem;
+}
+
+
+
+.DownPart h6{
+    font-size: 15px;
+}
+
+.Btn{
+    text-align: center;
+    margin-top: 40px;
+}
+
+button{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.Btn p{
+    margin-top: 5px;
+}
+
+a{
+    color: #2ec4b6;
+    text-decoration: underline;
+}
+
+
